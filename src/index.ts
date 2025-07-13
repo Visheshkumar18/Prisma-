@@ -10,6 +10,14 @@ async function Main(){
         }
         
     })
+    await prisma.todo.create({
+        data:{
+            title:"Read the Docs",
+            description:"Deep dive into prisma ",
+            userId:1
+
+        }
+    }) 
     console.log(response);
 }
 Main();
