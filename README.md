@@ -1,5 +1,5 @@
 
-  --------SETUP FOR PRISMA PROJECT------------
+  --------SETUP FOR PRISMA PROJECT------------<br>
 Initialise typescript project <br>
 npm i prisma <br>
 npx prisma init <br>
