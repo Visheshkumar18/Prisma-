@@ -18,14 +18,8 @@ function Main() {
                 id: 1
             },
             select: {
+                todos: true,
                 username: true
-            }
-        });
-        yield prisma.todo.create({
-            data: {
-                title: "Read the Docs",
-                description: "Deep dive into prisma ",
-                userId: 1
             }
         });
         console.log(response);
