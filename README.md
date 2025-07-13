@@ -1,4 +1,4 @@
-<h1>
+
   --------SETUP FOR PRISMA PROJECT------------
 Initialise typescript project 
 npm i prisma 
@@ -9,4 +9,4 @@ npx prisma migrate dev => this command is execute every time when you do migrati
 npm install @prisma/client
 npx prisma generate => this generate your prisma client 
 npm run dev
-</h1>
+
